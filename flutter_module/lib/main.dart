@@ -1,3 +1,6 @@
+import 'dart:ui';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(chooseWidget(window.defaultRouteName));
@@ -33,6 +36,7 @@ class SplashScreen extends StatelessWidget {
       body: Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text(
               'Court Counter',
@@ -42,7 +46,7 @@ class SplashScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            Image.asset('assets/images/nepal.jpg'),
+            Image.asset('assets/images/nepal.png'),
           ],
         ),
       ),
