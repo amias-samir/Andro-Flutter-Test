@@ -39,7 +39,7 @@ class SplashScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Court Counter',
+              'Splash from Flutter',
               style: TextStyle(
                 color: Colors.orange[800],
                 fontSize: 40,
